@@ -12,7 +12,6 @@ public class Looping {
     public static void main(String[] args) {
         for (int i = 1; i <= 50; i++) {
             System.out.println(TWO + SIGN + i + EQUAL + i * TWO);
-            System.out.println(TWO + " * " + i + " = " + TWO * i);
 
             if (i <= 12) {
                 System.out.println("You are kid");
